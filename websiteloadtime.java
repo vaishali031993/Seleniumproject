@@ -13,7 +13,7 @@ public class websiteloadtime {
 		driver.get("https://magento.softwaretestingboard.com/");
 		Thread.sleep(3000);
 		
-		long endTime = System.currentTimeMillis();
+		long endTime = System.currentTimeMillis(2000);
 
         // Close the browser
         driver.quit();
